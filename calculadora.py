@@ -1,3 +1,4 @@
-# calculadora.py
 def sumar(cadena: str) -> int:
-    return 0
+    if not cadena:
+        return 0
+    return int(cadena)
